@@ -15,7 +15,7 @@ class Solution {
         
         //Result
         return String.join(" ", texts);
-    }
+    }
 }
 ​
 //Leetcode is cool
