@@ -10,7 +10,7 @@
 |380|[ Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Java](./solutions/380.%20Insert%20Delete%20GetRandom%20O(1).java)|8 ms|
 |381|[ Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[Java](./solutions/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.java)|11 ms|
 |515|[ Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Java](./solutions/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row.java)|3 ms|
-|528|[ Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|[Java](./solutions/528.%20Random%20Pick%20with%20Weight.java)|20 ms|
+|528|[ Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|[Java](./solutions/528.%20Random%20Pick%20with%20Weight.java)|21 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](./solutions/543.%20Diameter%20of%20Binary%20Tree.java)|0 ms|
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.java)|2 ms|
 |836|[ Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Java](./solutions/836.%20Rectangle%20Overlap.java)|0 ms|
