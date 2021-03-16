@@ -1,19 +1,30 @@
 class Solution {
-    private double[] probabilities;
+​
+    Random random;
+    int[] wSums;
     
     public Solution(int[] w) {
-        double sum = 0;
-        this.probabilities = new double[w.length];
-        for(int weight : w)
-            sum += weight;
-        for(int i = 0; i < w.length; i++){
-            w[i] += (i == 0) ? 0 : w[i - 1];
-            probabilities[i] = w[i]/sum; 
-        }
+        this.random = new Random();
+        for(int i=1; i<w.length; ++i)
+            w[i] += w[i-1];
+        this.wSums = w;
     }
-     
+    
     public int pickIndex() {
-        return Math.abs(Arrays.binarySearch(this.probabilities, Math.random())) - 1;
+        int len = wSums.length;
+        int idx = random.nextInt(wSums[len-1]) + 1;
+        int left = 0, right = len - 1;
+        // search position 
+        while(left < right){
+            int mid = left + (right-left)/2;
+            if(wSums[mid] == idx)
+                return mid;
+            else if(wSums[mid] < idx)
+                left = mid + 1;
+            else
+                right = mid;
+        }
+        return left;
     }
 }
 ​
