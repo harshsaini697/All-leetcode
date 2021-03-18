@@ -14,6 +14,7 @@ class Solution {
         }
         return s.substring(start, start + max);
     }
+    
     private void expandAroundCenter(String s, int left, int right){
         int L = left, R = right;
         while (L >= 0 && R < s.length() && s.charAt(L) == s.charAt(R)) {
@@ -24,6 +25,6 @@ class Solution {
             max = R - L - 1;
             start = L + 1;
         }
-​
     }
+    
 }
