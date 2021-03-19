@@ -10,6 +10,7 @@
 |146|[ LRU Cache](https://leetcode.com/problems/lru-cache/)|[Java](./solutions/146.%20LRU%20Cache.java)|13 ms|
 |167|[ Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](./solutions/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.java)|2 ms|
 |187|[ Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|[Java](./solutions/187.%20Repeated%20DNA%20Sequences.java)|15 ms|
+|264|[ Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Java](./solutions/264.%20Ugly%20Number%20II.java)|52 ms|
 |345|[ Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](./solutions/345.%20Reverse%20Vowels%20of%20a%20String.java)|17 ms|
 |380|[ Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Java](./solutions/380.%20Insert%20Delete%20GetRandom%20O(1).java)|8 ms|
 |381|[ Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[Java](./solutions/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.java)|11 ms|
