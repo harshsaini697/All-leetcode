@@ -21,6 +21,7 @@
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](./solutions/560.%20Subarray%20Sum%20Equals%20K.java)|18 ms|
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.java)|2 ms|
 |666|[ Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|[Java](./solutions/666.%20Path%20Sum%20IV.java)|1 ms|
+|687|[ Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](./solutions/687.%20Longest%20Univalue%20Path.java)|2 ms|
 |836|[ Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Java](./solutions/836.%20Rectangle%20Overlap.java)|0 ms|
 |938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Java](./solutions/938.%20Range%20Sum%20of%20BST.java)|3 ms|
 |966|[ Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|[Java](./solutions/966.%20Vowel%20Spellchecker.java)|16 ms|
