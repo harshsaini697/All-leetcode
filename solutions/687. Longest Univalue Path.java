@@ -13,6 +13,14 @@
  *     }
  * }
  */
+class Pair{
+    TreeNode curr;
+    int val;
+    Pair(TreeNode node, int value){
+        this.curr = node;
+        this.val = value;
+    }
+}
 class Solution {
     int len = 0;
     public int longestUnivaluePath(TreeNode root) {
@@ -26,6 +34,8 @@ class Solution {
         int right = postorder(root.right, root.val);
         len = Math.max(len, left + right);
         if(value == root.val) return Math.max(left, right) + 1;
+        
+​
         return 0;
     }
 }
