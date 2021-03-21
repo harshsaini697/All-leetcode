@@ -13,14 +13,7 @@
  *     }
  * }
  */
-class Pair{
-    TreeNode curr;
-    int val;
-    Pair(TreeNode node, int value){
-        this.curr = node;
-        this.val = value;
-    }
-}
+​
 class Solution {
     int len = 0;
     public int longestUnivaluePath(TreeNode root) {
