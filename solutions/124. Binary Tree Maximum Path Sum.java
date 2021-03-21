@@ -25,8 +25,8 @@ class Solution {
         if(root == null) return 0;
 ​
         //logic
-        int left = dfs(root.left);
-        int right = dfs(root.right);
+        int left = Math.max(0, dfs(root.left));
+        int right = Math.max(0, dfs(root.right));
         max = Math.max(max, left + right + root.val);
         return Math.max( left , right) + root.val;
     }
