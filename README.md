@@ -3,6 +3,7 @@
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
 |5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](./solutions/5.%20Longest%20Palindromic%20Substring.java)|23 ms|
+|8|[ String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Java](./solutions/8.%20String%20to%20Integer%20(atoi).java)|1 ms|
 |13|[ Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Java](./solutions/13.%20Roman%20to%20Integer.java)|5 ms|
 |98|[ Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Java](./solutions/98.%20Validate%20Binary%20Search%20Tree.java)|1 ms|
 |113|[ Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](./solutions/113.%20Path%20Sum%20II.java)|1 ms|
