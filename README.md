@@ -39,4 +39,5 @@
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[Java](./solutions/1041.%20Robot%20Bounded%20In%20Circle.java)|N/A|
 |1055|[ Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Java](./solutions/1055.%20Shortest%20Way%20to%20Form%20String.java)|4 ms|
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Java](./solutions/1087.%20Brace%20Expansion.java)|2 ms|
+|1381|[ Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|[Java](./solutions/1381.%20Design%20a%20Stack%20With%20Increment%20Operation.java)|44 ms|
 |1451|[ Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|[Java](./solutions/1451.%20Rearrange%20Words%20in%20a%20Sentence.java)|19 ms|
