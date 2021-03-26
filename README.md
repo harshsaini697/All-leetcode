@@ -11,6 +11,7 @@
 |80|[ Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Java](./solutions/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.java)|0 ms|
 |98|[ Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Java](./solutions/98.%20Validate%20Binary%20Search%20Tree.java)|1 ms|
 |113|[ Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](./solutions/113.%20Path%20Sum%20II.java)|1 ms|
+|121|[ Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java](./solutions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.java)|1 ms|
 |124|[ Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Java](./solutions/124.%20Binary%20Tree%20Maximum%20Path%20Sum.java)|0 ms|
 |128|[ Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](./solutions/128.%20Longest%20Consecutive%20Sequence.java)|2 ms|
 |146|[ LRU Cache](https://leetcode.com/problems/lru-cache/)|[Java](./solutions/146.%20LRU%20Cache.java)|13 ms|
