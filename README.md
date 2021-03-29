@@ -43,7 +43,7 @@
 |937|[ Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|[Java](./solutions/937.%20Reorder%20Data%20in%20Log%20Files.java)|5 ms|
 |938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Java](./solutions/938.%20Range%20Sum%20of%20BST.java)|3 ms|
 |966|[ Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|[Java](./solutions/966.%20Vowel%20Spellchecker.java)|16 ms|
-|977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.java)|23 ms|
+|977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.java)|1 ms|
 |1007|[ Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Java](./solutions/1007.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row.java)|5 ms|
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[Java](./solutions/1041.%20Robot%20Bounded%20In%20Circle.java)|N/A|
 |1055|[ Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Java](./solutions/1055.%20Shortest%20Way%20to%20Form%20String.java)|4 ms|
