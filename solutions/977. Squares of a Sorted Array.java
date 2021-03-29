@@ -1,16 +1,20 @@
+​
 class Solution {
-    public int[] sortedSquares(int[] nums) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
-        if(nums == null || nums.length == 0) return new int[]{};
-        
-        for(int i = 0; i < nums.length; i++){
-            pq.add(nums[i] *nums[i]);
+    public int[] sortedSquares(int[] A) {
+        if(A == null || A.length == 0) return new int[]{};
+        int n = A.length;
+        int[] res = new int[n];
+        int p = 0;
+        int q = n - 1;
+        for(int i = n - 1; i >= 0; i--){
+            if(Math.abs(A[p]) > Math.abs(A[q])){
+                res[i] = A[p] * A[p];
+                p++;
+            }else{
+                res[i] = A[q] * A[q];
+                q--;
+            }
         }
-        int i = 0;
-        while(!pq.isEmpty()){
-            nums[i++] = pq.poll();
-        }
-        return nums;
+        return res;
     }
-    
 }
