@@ -7,5 +7,5 @@ class Solution {
             res = Math.max(res, Math.max(l, r));
         }
         return res;
-    }
+    }
 }
