@@ -43,6 +43,7 @@
 |666|[ Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|[Java](./solutions/666.%20Path%20Sum%20IV.java)|1 ms|
 |687|[ Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](./solutions/687.%20Longest%20Univalue%20Path.java)|2 ms|
 |703|[ Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](./solutions/703.%20Kth%20Largest%20Element%20in%20a%20Stream.java)|18 ms|
+|715|[ Range Module](https://leetcode.com/problems/range-module/)|[Java](./solutions/715.%20Range%20Module.java)|56 ms|
 |720|[ Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](./solutions/720.%20Longest%20Word%20in%20Dictionary.java)|6 ms|
 |819|[ Most Common Word](https://leetcode.com/problems/most-common-word/)|[Java](./solutions/819.%20Most%20Common%20Word.java)|11 ms|
 |836|[ Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Java](./solutions/836.%20Rectangle%20Overlap.java)|0 ms|
