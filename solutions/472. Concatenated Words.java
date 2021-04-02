@@ -5,10 +5,11 @@ class Solution {
         HashSet<String> set = new HashSet<>();
         //sort the array so that we only send the words that are smaller than the current word
         Arrays.sort(words, (a,b) -> a.length() - b.length());
+        //for(int i = 0; i < words.length; i++) set.add(words[i]);
         for(int i = 0; i < words.length; i++){
             if(canForm(words[i], set)) list.add(words[i]);
             set.add(words[i]);
-        }
+        }
         return list;
     }
     
