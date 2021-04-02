@@ -41,6 +41,7 @@
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](./solutions/560.%20Subarray%20Sum%20Equals%20K.java)|18 ms|
 |572|[ Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](./solutions/572.%20Subtree%20of%20Another%20Tree.java)|5 ms|
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.java)|2 ms|
+|662|[ Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[Java](./solutions/662.%20Maximum%20Width%20of%20Binary%20Tree.java)|0 ms|
 |666|[ Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|[Java](./solutions/666.%20Path%20Sum%20IV.java)|1 ms|
 |687|[ Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](./solutions/687.%20Longest%20Univalue%20Path.java)|2 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Java](./solutions/695.%20Max%20Area%20of%20Island.java)|3 ms|
