@@ -1,6 +1,7 @@
 class StreamChecker {
     TrieNode root;
     StringBuilder sb;
+    
     public StreamChecker(String[] words) {
         root = new TrieNode();
         sb = new StringBuilder();  
@@ -44,3 +45,6 @@ class TrieNode {
 }
 /**
  * Your StreamChecker object will be instantiated and called as such:
+ * StreamChecker obj = new StreamChecker(words);
+ * boolean param_1 = obj.query(letter);
+ */
