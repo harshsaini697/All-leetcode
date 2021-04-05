@@ -19,16 +19,18 @@ class Solution {
         }
         //choose
         
-        for(int i = index; i < candidates.length; i++){
-            //if(index > 0 && candidates[i - 1] == candidates[i]) continue;
+        for(int i = index; i < candidates.length; i = nextLarger(candidates, i + 1)){
+            //while(i < candidates.length && candidates[i] == candidates[i + 1]) continue;
             if(target < candidates[i]) break;
             temp.add(candidates[i]);
             backtrack(candidates, target - candidates[i], temp, i + 1);
             temp.remove(temp.size() - 1);
         }
         
-        
-//         //not choose
-//         backtrack(candidates, target, temp, index + 1);
+​
+    }
+    private int nextLarger(int[] C, int i) {
+        while (i < C.length && C[i] == C[i-1]) i++;
+        return i;
     }
 }
