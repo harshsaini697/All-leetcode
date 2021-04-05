@@ -4,6 +4,7 @@ class Solution {
         res = new HashSet<>();
         if(candidates == null || candidates.length == 0) return new ArrayList<>(res);
         Arrays.sort(candidates);
+        //System.out.println(Arrays.toString(candidates));
         backtrack(candidates, target, new ArrayList<>(), 0);
         return new ArrayList<>(res);
     }
@@ -20,7 +21,7 @@ class Solution {
         //choose
         
         for(int i = index; i < candidates.length; i = nextLarger(candidates, i + 1)){
-            //while(i < candidates.length && candidates[i] == candidates[i + 1]) continue;
+            //System.out.println(index +"  , " +i);
             if(target < candidates[i]) break;
             temp.add(candidates[i]);
             backtrack(candidates, target - candidates[i], temp, i + 1);
