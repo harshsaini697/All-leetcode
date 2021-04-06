@@ -1,10 +1,15 @@
 class Solution {
     public int maxProduct(int[] A) {
-        int n = A.length, res = A[0], l = 0, r = 0;
-        for (int i = 0; i < n; i++) {
-            l =  (l == 0 ? 1 : l) * A[i];
-            r =  (r == 0 ? 1 : r) * A[n - 1 - i];
-            res = Math.max(res, Math.max(l, r));
+        if(A == null) return 0;
+        
+        int left = 0;
+        int right = 0;
+        int res = A[0];
+        int n = A.length;
+        for(int i = 0; i < n; i++){
+            left = (left == 0 ? 1 : left ) * A[i];
+            right = (right == 0 ? 1: right ) * A[n - i - 1];
+            res = Math.max(res, Math.max(left, right));
         }
         return res;
     }
