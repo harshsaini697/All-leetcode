@@ -51,6 +51,7 @@
 |662|[ Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[Java](./solutions/662.%20Maximum%20Width%20of%20Binary%20Tree.java)|0 ms|
 |666|[ Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|[Java](./solutions/666.%20Path%20Sum%20IV.java)|1 ms|
 |687|[ Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](./solutions/687.%20Longest%20Univalue%20Path.java)|2 ms|
+|694|[ Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)|[Java](./solutions/694.%20Number%20of%20Distinct%20Islands.java)|19 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Java](./solutions/695.%20Max%20Area%20of%20Island.java)|3 ms|
 |703|[ Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](./solutions/703.%20Kth%20Largest%20Element%20in%20a%20Stream.java)|18 ms|
 |715|[ Range Module](https://leetcode.com/problems/range-module/)|[Java](./solutions/715.%20Range%20Module.java)|56 ms|
