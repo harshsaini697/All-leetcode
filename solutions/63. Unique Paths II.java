@@ -7,7 +7,6 @@ class Solution {
         int m = obstacleGrid.length;
         int n = obstacleGrid[0].length;
         obstacleGrid[0][0] = 1;
-        int[][] dp = new int[m][n];
         for (int i = 1; i < m; i++) {
             obstacleGrid[i][0] = (obstacleGrid[i][0] == 0 && obstacleGrid[i - 1][0] == 1) ? 1 : 0;
         }
