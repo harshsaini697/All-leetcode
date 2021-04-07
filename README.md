@@ -66,6 +66,7 @@
 |966|[ Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|[Java](./solutions/966.%20Vowel%20Spellchecker.java)|16 ms|
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.java)|1 ms|
 |1007|[ Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Java](./solutions/1007.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row.java)|5 ms|
+|1023|[ Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|[Java](./solutions/1023.%20Camelcase%20Matching.java)||
 |1032|[ Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[Java](./solutions/1032.%20Stream%20of%20Characters.java)|81 ms|
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[Java](./solutions/1041.%20Robot%20Bounded%20In%20Circle.java)|0 ms|
 |1055|[ Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Java](./solutions/1055.%20Shortest%20Way%20to%20Form%20String.java)|4 ms|
