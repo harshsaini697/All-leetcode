@@ -68,6 +68,7 @@
 |1032|[ Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[Java](./solutions/1032.%20Stream%20of%20Characters.java)|81 ms|
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[Java](./solutions/1041.%20Robot%20Bounded%20In%20Circle.java)|0 ms|
 |1055|[ Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Java](./solutions/1055.%20Shortest%20Way%20to%20Form%20String.java)|4 ms|
+|1057|[ Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Java](./solutions/1057.%20Campus%20Bikes.java)|809 ms|
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Java](./solutions/1087.%20Brace%20Expansion.java)|2 ms|
 |1156|[ Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)|[Java](./solutions/1156.%20Swap%20For%20Longest%20Repeated%20Character%20Substring.java)|9 ms|
 |1197|[ Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Java](./solutions/1197.%20Minimum%20Knight%20Moves.java)|596 ms|
