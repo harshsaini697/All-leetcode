@@ -70,6 +70,7 @@
 |1023|[ Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|[Java](./solutions/1023.%20Camelcase%20Matching.java)|0 ms|
 |1032|[ Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[Java](./solutions/1032.%20Stream%20of%20Characters.java)|81 ms|
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[Java](./solutions/1041.%20Robot%20Bounded%20In%20Circle.java)|0 ms|
+|1043|[ Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[Java](./solutions/1043.%20Partition%20Array%20for%20Maximum%20Sum.java)|4 ms|
 |1055|[ Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Java](./solutions/1055.%20Shortest%20Way%20to%20Form%20String.java)|4 ms|
 |1057|[ Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Java](./solutions/1057.%20Campus%20Bikes.java)|809 ms|
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Java](./solutions/1087.%20Brace%20Expansion.java)|2 ms|
