@@ -14,32 +14,40 @@ class Node {
 */
 ​
 class Solution {
-    HashMap<Node, Node> map;
     public Node copyRandomList(Node head) {
+        // 1. Create New Nodes
+        // 2. Configure random pointers
+        // 3. Split the nodes
         if(head == null) return null;
-        map = new HashMap<>();
-        Node copyHead = clone(head);
+        
         Node curr = head;
+        while(curr != null){
+            Node currCopy = new Node(curr.val);
+            Node temp = curr.next;
+            curr.next = currCopy;
+            currCopy.next = temp;
+            curr = curr.next.next; // move next twice
+        }
+        //Step 2 random pointers
+        curr = head;
+        while(curr != null){
+            if(curr.random != null){
+                curr.next.random = curr.random.next;
+            }
+            curr = curr.next.next;
+        }
+        // Step 3 split
+        curr = head;
+        Node copyHead = curr.next;
         Node currCopy = copyHead;
         while(curr != null){
-            // Check if random exists
-            currCopy.random = clone(curr.random);
-            currCopy.next = clone(curr.next);
-            currCopy = currCopy.next;
+            curr.next = curr.next.next;
+            if(currCopy.next != null){
+                currCopy.next = currCopy.next.next;
+            }
             curr = curr.next;
+            currCopy = currCopy.next;    
         }
         return copyHead;
     }
-    private Node clone(Node node){
-        if(node == null) return null;
-        if(map.containsKey(node)){
-            return map.get(node);
-        }else{
-            Node temp = new Node(node.val);
-            map.put(node, temp);
-        }
-        return map.get(node);
-    }
-    
-   
 }
