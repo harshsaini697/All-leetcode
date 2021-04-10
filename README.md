@@ -64,6 +64,7 @@
 |662|[ Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[Java](./solutions/662.%20Maximum%20Width%20of%20Binary%20Tree.java)|0 ms|
 |666|[ Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|[Java](./solutions/666.%20Path%20Sum%20IV.java)|1 ms|
 |687|[ Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](./solutions/687.%20Longest%20Univalue%20Path.java)|2 ms|
+|690|[ Employee Importance](https://leetcode.com/problems/employee-importance/)|[Java](./solutions/690.%20Employee%20Importance.java)|4 ms|
 |694|[ Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)|[Java](./solutions/694.%20Number%20of%20Distinct%20Islands.java)|19 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Java](./solutions/695.%20Max%20Area%20of%20Island.java)|3 ms|
 |702|[ Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Java](./solutions/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size.java)|1 ms|
