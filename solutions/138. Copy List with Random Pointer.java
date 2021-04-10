@@ -23,8 +23,8 @@ class Solution {
         Node currCopy = copyHead;
         while(curr != null){
             // Check if random exists
-            currCopy.random = clone(curr.random);;
-            currCopy.next = clone(curr.next);;
+            currCopy.random = clone(curr.random);
+            currCopy.next = clone(curr.next);
             currCopy = currCopy.next;
             curr = curr.next;
         }
