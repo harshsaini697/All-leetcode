@@ -89,6 +89,7 @@
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Java](./solutions/1087.%20Brace%20Expansion.java)|2 ms|
 |1156|[ Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)|[Java](./solutions/1156.%20Swap%20For%20Longest%20Repeated%20Character%20Substring.java)|9 ms|
 |1197|[ Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Java](./solutions/1197.%20Minimum%20Knight%20Moves.java)|596 ms|
+|1275|[ Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Java](./solutions/1275.%20Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game.java)|0 ms|
 |1381|[ Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|[Java](./solutions/1381.%20Design%20a%20Stack%20With%20Increment%20Operation.java)|44 ms|
 |1451|[ Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|[Java](./solutions/1451.%20Rearrange%20Words%20in%20a%20Sentence.java)|19 ms|
 |1603|[ Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Java](./solutions/1603.%20Design%20Parking%20System.java)|6 ms|
