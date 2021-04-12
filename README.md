@@ -46,6 +46,7 @@
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Java](./solutions/322.%20Coin%20Change.java)|17 ms|
 |323|[ Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|[Java](./solutions/323.%20Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.java)|3 ms|
 |345|[ Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](./solutions/345.%20Reverse%20Vowels%20of%20a%20String.java)|17 ms|
+|346|[ Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Java](./solutions/346.%20Moving%20Average%20from%20Data%20Stream.java)|48 ms|
 |348|[ Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)|[Java](./solutions/348.%20Design%20Tic-Tac-Toe.java)|4 ms|
 |380|[ Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Java](./solutions/380.%20Insert%20Delete%20GetRandom%20O(1).java)|8 ms|
 |381|[ Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[Java](./solutions/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.java)|11 ms|
