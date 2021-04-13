@@ -13,25 +13,31 @@
  *     }
  * }
  */
-public class Solution {
-    int count = 0;
+class Solution {
+    HashMap<Integer, Integer> map;
+    int res = 0;
     int k;
-    HashMap<Integer, Integer> h = new HashMap();
-    public int pathSum(TreeNode root, int sum) {
-        k = sum;
+    public int pathSum(TreeNode root, int targetSum) {
+        if(root == null) return 0;
+        map = new HashMap<>();
+        k = targetSum;
         preorder(root, 0);
-        return count;
+        map.put(0,1);
+        return res;
     }
-    
-    private void preorder(TreeNode node, int currsum) {
+    private void preorder(TreeNode node, int sum){
         if(node == null) return;
         
-        currsum += node.val;
-        if(currsum == k) count++;
-        count += h.getOrDefault(currsum - k, 0);
-        h.put(currsum, h.getOrDefault(currsum, 0) + 1);
-        preorder(node.left, currsum);
-        preorder(node.right, currsum);
-        h.put(currsum, h.get(currsum) - 1);
+        sum += node.val;
+        if(sum == k){
+            res++;
+        }
+        res += map.getOrDefault(sum - k, 0);
+        map.put(sum, map.getOrDefault(sum, 0) + 1);
+        
+        preorder(node.left, sum);
+        preorder(node.right, sum);
+        
+        map.put(sum, map.get(sum) - 1);
     }
 }
