@@ -94,4 +94,5 @@
 |1275|[ Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Java](./solutions/1275.%20Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game.java)|0 ms|
 |1381|[ Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|[Java](./solutions/1381.%20Design%20a%20Stack%20With%20Increment%20Operation.java)|44 ms|
 |1451|[ Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|[Java](./solutions/1451.%20Rearrange%20Words%20in%20a%20Sentence.java)|19 ms|
+|1465|[ Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[Java](./solutions/1465.%20Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts.java)|13 ms|
 |1603|[ Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Java](./solutions/1603.%20Design%20Parking%20System.java)|6 ms|
