@@ -63,6 +63,7 @@
 |525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Java](./solutions/525.%20Contiguous%20Array.java)|39 ms|
 |528|[ Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|[Java](./solutions/528.%20Random%20Pick%20with%20Weight.java)|21 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](./solutions/543.%20Diameter%20of%20Binary%20Tree.java)|0 ms|
+|547|[ Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Java](./solutions/547.%20Number%20of%20Provinces.java)|0 ms|
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](./solutions/560.%20Subarray%20Sum%20Equals%20K.java)|18 ms|
 |572|[ Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](./solutions/572.%20Subtree%20of%20Another%20Tree.java)|5 ms|
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.java)|2 ms|
