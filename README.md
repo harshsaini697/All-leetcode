@@ -98,6 +98,7 @@
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Java](./solutions/1087.%20Brace%20Expansion.java)|2 ms|
 |1100|[ Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/)|[Java](./solutions/1100.%20Find%20K-Length%20Substrings%20With%20No%20Repeated%20Characters.java)|7 ms|
 |1120|[ Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|[Java](./solutions/1120.%20Maximum%20Average%20Subtree.java)|1 ms|
+|1152|[ Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/)|[Java](./solutions/1152.%20Analyze%20User%20Website%20Visit%20Pattern.java)|30 ms|
 |1156|[ Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)|[Java](./solutions/1156.%20Swap%20For%20Longest%20Repeated%20Character%20Substring.java)|9 ms|
 |1197|[ Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Java](./solutions/1197.%20Minimum%20Knight%20Moves.java)|596 ms|
 |1275|[ Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Java](./solutions/1275.%20Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game.java)|0 ms|
