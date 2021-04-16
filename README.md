@@ -88,6 +88,7 @@
 |938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Java](./solutions/938.%20Range%20Sum%20of%20BST.java)|3 ms|
 |966|[ Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|[Java](./solutions/966.%20Vowel%20Spellchecker.java)|16 ms|
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.java)|1 ms|
+|981|[ Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|[Java](./solutions/981.%20Time%20Based%20Key-Value%20Store.java)|111 ms|
 |1007|[ Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Java](./solutions/1007.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row.java)|5 ms|
 |1011|[ Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|[Java](./solutions/1011.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.java)|8 ms|
 |1023|[ Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|[Java](./solutions/1023.%20Camelcase%20Matching.java)|0 ms|
