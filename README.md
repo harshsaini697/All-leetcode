@@ -77,6 +77,7 @@
 |690|[ Employee Importance](https://leetcode.com/problems/employee-importance/)|[Java](./solutions/690.%20Employee%20Importance.java)|4 ms|
 |694|[ Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)|[Java](./solutions/694.%20Number%20of%20Distinct%20Islands.java)|19 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Java](./solutions/695.%20Max%20Area%20of%20Island.java)|3 ms|
+|701|[ Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Java](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.java)|0 ms|
 |702|[ Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Java](./solutions/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size.java)|1 ms|
 |703|[ Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](./solutions/703.%20Kth%20Largest%20Element%20in%20a%20Stream.java)|18 ms|
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[Java](./solutions/705.%20Design%20HashSet.java)|109 ms|
