@@ -4,7 +4,6 @@ public class LFUCache {
     HashMap<Integer, LinkedHashSet<Integer>> lists;
     int cap;
     int min = -1;
-    
     public LFUCache(int capacity) {
         cap = capacity;
         vals = new HashMap<>();
