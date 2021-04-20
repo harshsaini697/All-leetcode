@@ -41,7 +41,7 @@
 |199|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Java](./solutions/199.%20Binary%20Tree%20Right%20Side%20View.java)|0 ms|
 |202|[ Happy Number](https://leetcode.com/problems/happy-number/)|[Java](./solutions/202.%20Happy%20Number.java)|1 ms|
 |210|[ Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[Java](./solutions/210.%20Course%20Schedule%20II.java)|5 ms|
-|212|[ Word Search II](https://leetcode.com/problems/word-search-ii/)|[Java](./solutions/212.%20Word%20Search%20II.java)|2425 ms|
+|212|[ Word Search II](https://leetcode.com/problems/word-search-ii/)|[Java](./solutions/212.%20Word%20Search%20II.java)|156 ms|
 |236|[ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Java](./solutions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.java)|4 ms|
 |238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Java](./solutions/238.%20Product%20of%20Array%20Except%20Self.java)|1 ms|
 |239|[ Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Java](./solutions/239.%20Sliding%20Window%20Maximum.java)|28 ms|
