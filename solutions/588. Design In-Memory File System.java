@@ -67,3 +67,4 @@ class Node
  * obj.mkdir(path);
  * obj.addContentToFile(filePath,content);
  * String param_4 = obj.readContentFromFile(filePath);
+ */
