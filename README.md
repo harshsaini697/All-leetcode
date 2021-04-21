@@ -124,4 +124,5 @@
 |1382|[ Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[Java](./solutions/1382.%20Balance%20a%20Binary%20Search%20Tree.java)|2 ms|
 |1451|[ Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|[Java](./solutions/1451.%20Rearrange%20Words%20in%20a%20Sentence.java)|19 ms|
 |1465|[ Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[Java](./solutions/1465.%20Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts.java)|13 ms|
+|1559|[ Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|[Java](./solutions/1559.%20Detect%20Cycles%20in%202D%20Grid.java)|30 ms|
 |1603|[ Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Java](./solutions/1603.%20Design%20Parking%20System.java)|6 ms|
