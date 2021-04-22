@@ -1,16 +1,24 @@
 class Solution {
     public int maxProfit(int k, int[] prices) {
-        int[] T_ik0 = new int[k + 1];
-        int[] T_ik1 = new int[k + 1];
-        Arrays.fill(T_ik1, Integer.MIN_VALUE);
+        if(prices == null) return 0;
+        if(2*k > prices.length){
+            int res = 0;
+            for(int i = 1; i < prices.length; i++){
+                res += Math.max(0, prices[i] - prices[i - 1]);
+            }
+            return res;
+        }
+        int result = 0;
+        int[] buy = new int[k + 1];
+        Arrays.fill(buy, Integer.MAX_VALUE);
+        int[] sell = new int[k + 1];
         
-        for (int price : prices) {
-            for (int j = k; j > 0 ; j--) {
-                T_ik0[j] = Math.max(T_ik0[j], T_ik1[j] + price);
-                T_ik1[j] = Math.max(T_ik1[j], T_ik0[j - 1] - price);
+        for(int price: prices){
+            for(int i = 1; i <= k; i++){
+                buy[i] = Math.min(buy[i], price - sell[i - 1]);
+                sell[i] = Math.max(sell[i], price - buy[i]);
             }
         }
-​
-        return T_ik0[k];
+        return sell[k];
     }
 }
