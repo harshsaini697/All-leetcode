@@ -1,18 +1,16 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        int k = 2;
-        int[] T_ik0 = new int[k + 1];
-        int[] T_ik1 = new int[k + 1];
-        Arrays.fill(T_ik1, Integer.MIN_VALUE);
+        if(prices == null || prices.length == 0) return 0;
         
-        for (int price : prices) {
-            for (int j = k; j > 0 ; j--) {
-                T_ik0[j] = Math.max(T_ik0[j], T_ik1[j] + price);
-                T_ik1[j] = Math.max(T_ik1[j], T_ik0[j - 1] - price);
-            }
+        int buy1 = Integer.MAX_VALUE, buy2 = Integer.MAX_VALUE;
+        int sell1 = 0, sell2 = 0;
+        
+        for(int price: prices){
+            buy1 = Math.min(buy1, price);
+            sell1 = Math.max(sell1, price - buy1);
+            buy2 = Math.min(buy2, price - sell1);
+            sell2 = Math.max(sell2, price - buy2);
         }
-​
-        return T_ik0[k];
-        
+        return sell2;
     }
 }
