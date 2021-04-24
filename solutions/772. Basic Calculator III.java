@@ -5,23 +5,24 @@ class Solution {
         int result = 0;
         int curr = 0;
         char op = '+';
+        int n = s.length();
         for(int i = 0 ; i < s.length(); i++){
             char c = s.charAt(i);
             if(Character.isDigit(c)){
-                // get the number
-                curr = (curr * 10) + (c - '0');
-            }else if (c == '(') {
-                 int j = i + 1; int braces = 1;
-                 for (; j < s.length(); j++) {
-                     if (s.charAt(j) == '(') ++braces;
-                     if (s.charAt(j) == ')') --braces;
-                     if (braces == 0) break;
-                 }                
-                 curr = calculate(s.substring(i + 1, j));
-                 i = j;
-             } 
+                curr =  curr * 10 + (int)(c - '0');
+            }else if(c == '('){
+                int braces = 1;
+                int j = i + 1;
+                for(; j< n; j++){
+                    if(s.charAt(j) == '(') braces++;
+                    if(s.charAt(j) == ')') braces--;
+                    if(braces == 0) break;
+                }
+                curr = calculate(s.substring(i + 1, j));
+                i = j;
+            }
             
-            if(c == '+' || c == '-' || c == '*' || c == '/' || i == s.length() - 1){
+            if(c == '*' || c == '+' || c == '-' ||c == '/' || i == n - 1){
                 switch(op){
                     case '+':
                         st.push(curr);
@@ -36,8 +37,8 @@ class Solution {
                         st.push(st.pop() / curr);
                         break;
                 }
-                curr = 0;
                 op = c;
+                curr = 0;
             }
         }
         while(!st.isEmpty()){
