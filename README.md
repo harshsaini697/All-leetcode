@@ -102,6 +102,7 @@
 |740|[ Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[Java](./solutions/740.%20Delete%20and%20Earn.java)|1 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Java](./solutions/763.%20Partition%20Labels.java)|12 ms|
 |772|[ Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)|[Java](./solutions/772.%20Basic%20Calculator%20III.java)|3 ms|
+|807|[ Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Java](./solutions/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.java)|1 ms|
 |819|[ Most Common Word](https://leetcode.com/problems/most-common-word/)|[Java](./solutions/819.%20Most%20Common%20Word.java)|11 ms|
 |836|[ Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Java](./solutions/836.%20Rectangle%20Overlap.java)|0 ms|
 |863|[ All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[Java](./solutions/863.%20All%20Nodes%20Distance%20K%20in%20Binary%20Tree.java)|13 ms|
