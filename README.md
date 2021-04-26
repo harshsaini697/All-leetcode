@@ -69,6 +69,7 @@
 |381|[ Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[Java](./solutions/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.java)|11 ms|
 |412|[ Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Java](./solutions/412.%20Fizz%20Buzz.java)|1 ms|
 |419|[ Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Java](./solutions/419.%20Battleships%20in%20a%20Board.java)|0 ms|
+|428|[ Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/)|[Java](./solutions/428.%20Serialize%20and%20Deserialize%20N-ary%20Tree.java)|10 ms|
 |437|[ Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](./solutions/437.%20Path%20Sum%20III.java)|2 ms|
 |443|[ String Compression](https://leetcode.com/problems/string-compression/)|[Java](./solutions/443.%20String%20Compression.java)|1 ms|
 |445|[ Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[Java](./solutions/445.%20Add%20Two%20Numbers%20II.java)|2 ms|
