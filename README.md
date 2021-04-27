@@ -102,6 +102,7 @@
 |720|[ Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](./solutions/720.%20Longest%20Word%20in%20Dictionary.java)|6 ms|
 |727|[ Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)|[Java](./solutions/727.%20Minimum%20Window%20Subsequence.java)|15 ms|
 |740|[ Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[Java](./solutions/740.%20Delete%20and%20Earn.java)|1 ms|
+|759|[ Employee Free Time](https://leetcode.com/problems/employee-free-time/)|[Java](./solutions/759.%20Employee%20Free%20Time.java)|8 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Java](./solutions/763.%20Partition%20Labels.java)|12 ms|
 |772|[ Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)|[Java](./solutions/772.%20Basic%20Calculator%20III.java)|3 ms|
 |807|[ Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Java](./solutions/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.java)|1 ms|
