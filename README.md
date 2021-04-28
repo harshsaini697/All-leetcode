@@ -14,6 +14,7 @@
 |26|[ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./solutions/26.%20Remove%20Duplicates%20from%20Sorted%20Array.java)|0 ms|
 |33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.java)|0 ms|
 |40|[ Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Java](./solutions/40.%20Combination%20Sum%20II.java)|3 ms|
+|42|[ Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Java](./solutions/42.%20Trapping%20Rain%20Water.java)|1 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./solutions/53.%20Maximum%20Subarray.java)|0 ms|
 |63|[ Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Java](./solutions/63.%20Unique%20Paths%20II.java)|0 ms|
 |72|[ Edit Distance](https://leetcode.com/problems/edit-distance/)|[Java](./solutions/72.%20Edit%20Distance.java)|5 ms|
