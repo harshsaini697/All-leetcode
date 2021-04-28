@@ -140,6 +140,7 @@
 |1156|[ Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)|[Java](./solutions/1156.%20Swap%20For%20Longest%20Repeated%20Character%20Substring.java)|9 ms|
 |1192|[ Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[Java](./solutions/1192.%20Critical%20Connections%20in%20a%20Network.java)|132 ms|
 |1197|[ Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Java](./solutions/1197.%20Minimum%20Knight%20Moves.java)|596 ms|
+|1268|[ Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[Java](./solutions/1268.%20Search%20Suggestions%20System.java)|116 ms|
 |1275|[ Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)|[Java](./solutions/1275.%20Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game.java)|0 ms|
 |1335|[ Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|[Java](./solutions/1335.%20Minimum%20Difficulty%20of%20a%20Job%20Schedule.java)|7 ms|
 |1381|[ Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|[Java](./solutions/1381.%20Design%20a%20Stack%20With%20Increment%20Operation.java)|44 ms|
