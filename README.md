@@ -95,6 +95,7 @@
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.java)|2 ms|
 |657|[ Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Java](./solutions/657.%20Robot%20Return%20to%20Origin.java)|6 ms|
 |662|[ Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[Java](./solutions/662.%20Maximum%20Width%20of%20Binary%20Tree.java)|0 ms|
+|665|[ Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Java](./solutions/665.%20Non-decreasing%20Array.java)|0 ms|
 |666|[ Path Sum IV](https://leetcode.com/problems/path-sum-iv/)|[Java](./solutions/666.%20Path%20Sum%20IV.java)|1 ms|
 |687|[ Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Java](./solutions/687.%20Longest%20Univalue%20Path.java)|2 ms|
 |690|[ Employee Importance](https://leetcode.com/problems/employee-importance/)|[Java](./solutions/690.%20Employee%20Importance.java)|4 ms|
