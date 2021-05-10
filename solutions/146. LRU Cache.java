@@ -1,3 +1,24 @@
+class LRUCache {
+    HashMap<Integer, Node> map;
+    int capacity;
+    Node head;
+    Node tail;
+    
+    public LRUCache(int cap) {
+        this.head = new Node(-1, -1);
+        this.tail = new Node(-1, -1);
+        capacity = cap;
+        this.map = new HashMap<>();
+        head.next = tail;
+        tail.prev = head;
+    }
+    
+    public int get(int key) {
+        if(map.containsKey(key)){
+            Node curr = map.get(key);
+            
+            // //remove from back 
+            removeNode(curr);
             //add to head
             addToHead(curr);
             return curr.value;
@@ -41,14 +62,3 @@ class Node {
     Node prev;
     Node next;
     
-    Node(int key, int value){
-        this.key = key;
-        this.value = value;
-    }
-}
-/**
- * Your LRUCache object will be instantiated and called as such:
- * LRUCache obj = new LRUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
- */
