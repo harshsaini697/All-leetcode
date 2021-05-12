@@ -147,6 +147,7 @@
 |1335|[ Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)|[Java](./solutions/1335.%20Minimum%20Difficulty%20of%20a%20Job%20Schedule.java)|7 ms|
 |1381|[ Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|[Java](./solutions/1381.%20Design%20a%20Stack%20With%20Increment%20Operation.java)|44 ms|
 |1382|[ Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[Java](./solutions/1382.%20Balance%20a%20Binary%20Search%20Tree.java)|2 ms|
+|1448|[ Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[Java](./solutions/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree.java)|4 ms|
 |1451|[ Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|[Java](./solutions/1451.%20Rearrange%20Words%20in%20a%20Sentence.java)|19 ms|
 |1465|[ Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[Java](./solutions/1465.%20Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts.java)|13 ms|
 |1559|[ Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/)|[Java](./solutions/1559.%20Detect%20Cycles%20in%202D%20Grid.java)|30 ms|
