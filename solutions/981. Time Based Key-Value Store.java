@@ -24,7 +24,7 @@ class TimeMap {
                         temp.next = node;
                         node.next = next;
                         break;
-                    }else{
+                    }else{
                         temp = temp.next;
                     }
                 }
@@ -50,18 +50,3 @@ class TimeMap {
                 }
             }
         }
-        return "";
-    }
-}
-​
-class Node {
-    String value;
-    int timestamp;
-    int max;
-    Node next;
-    Node(String value, int timestamp, int max){
-        this.value = value;
-        this.timestamp = timestamp;
-        this.max = max;
-    }
-}
