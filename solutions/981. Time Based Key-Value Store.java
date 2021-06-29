@@ -50,3 +50,14 @@ class TimeMap {
                 }
             }
         }
+     class Node {
+    String value;
+    int timestamp;
+    int max;
+    Node next;
+    Node(String value, int timestamp, int max){
+        this.value = value;
+        this.timestamp = timestamp;
+        this.max = max;
+    }
+}
