@@ -121,6 +121,7 @@
 |836|[ Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Java](./solutions/836.%20Rectangle%20Overlap.java)|0 ms|
 |863|[ All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[Java](./solutions/863.%20All%20Nodes%20Distance%20K%20in%20Binary%20Tree.java)|13 ms|
 |895|[ Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[Java](./solutions/895.%20Maximum%20Frequency%20Stack.java)|26 ms|
+|929|[ Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[Java](./solutions/929.%20Unique%20Email%20Addresses.java)|18 ms|
 |931|[ Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[Java](./solutions/931.%20Minimum%20Falling%20Path%20Sum.java)|3 ms|
 |937|[ Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|[Java](./solutions/937.%20Reorder%20Data%20in%20Log%20Files.java)|5 ms|
 |938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Java](./solutions/938.%20Range%20Sum%20of%20BST.java)|3 ms|
