@@ -10,8 +10,7 @@ class Solution {
         }
         if(index >= coins.length || amount < 0){
             return -1;
-        }
-        
+        }
         //logic
         //choose
         int case1 = recurse(coins, amount - coins[index], index, coin + 1);
