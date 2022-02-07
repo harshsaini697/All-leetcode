@@ -14,28 +14,23 @@
  * }
  */
 class Solution {
-    TreeNode prev = null;
     public boolean isValidBST(TreeNode root) {
         if(root == null) return true;
         Stack<TreeNode> st = new Stack();
-        
-        
-        // if(!isValidBST(root.left)) return false;
-        while(root != null || !st.isEmpty()){
-            while(root != null){
+        TreeNode prev = null;
+        while(root != null || !st.isEmpty()) {
+            while(root != null) {
                 st.push(root);
                 root = root.left;
             }
+            //pop the last valid element
             root = st.pop();
-            if(prev != null && prev.val >= root.val) return false;
+            if(prev != null && prev.val >= root.val) {
+                return false;
+            }
             prev = root;
             root = root.right;
         }
-        
-//         prev = root;
-        
-        
-//         return isValidBST(root.right);
         return true;
-    }
+    }
 }
