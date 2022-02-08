@@ -46,7 +46,7 @@
 |159|[ Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Java](./solutions/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters.java)|4 ms|
 |165|[ Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Java](./solutions/165.%20Compare%20Version%20Numbers.java)|1 ms|
 |167|[ Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](./solutions/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.java)|0 ms|
-|173|[ Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Java](./solutions/173.%20Binary%20Search%20Tree%20Iterator.java)|25 ms|
+|173|[ Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Java](./solutions/173.%20Binary%20Search%20Tree%20Iterator.java)|22 ms|
 |187|[ Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|[Java](./solutions/187.%20Repeated%20DNA%20Sequences.java)|15 ms|
 |188|[ Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Java](./solutions/188.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV.java)|4 ms|
 |198|[ House Robber](https://leetcode.com/problems/house-robber/)|[Java](./solutions/198.%20House%20Robber.java)|0 ms|
