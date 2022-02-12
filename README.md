@@ -119,6 +119,7 @@
 |759|[ Employee Free Time](https://leetcode.com/problems/employee-free-time/)|[Java](./solutions/759.%20Employee%20Free%20Time.java)|8 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Java](./solutions/763.%20Partition%20Labels.java)|12 ms|
 |772|[ Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)|[Java](./solutions/772.%20Basic%20Calculator%20III.java)|3 ms|
+|784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Java](./solutions/784.%20Letter%20Case%20Permutation.java)|2 ms|
 |807|[ Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Java](./solutions/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.java)|1 ms|
 |819|[ Most Common Word](https://leetcode.com/problems/most-common-word/)|[Java](./solutions/819.%20Most%20Common%20Word.java)|11 ms|
 |836|[ Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Java](./solutions/836.%20Rectangle%20Overlap.java)|0 ms|
