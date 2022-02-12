@@ -63,6 +63,7 @@
 |239|[ Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Java](./solutions/239.%20Sliding%20Window%20Maximum.java)|28 ms|
 |240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](./solutions/240.%20Search%20a%202D%20Matrix%20II.java)|4 ms|
 |264|[ Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Java](./solutions/264.%20Ugly%20Number%20II.java)|2 ms|
+|268|[ Missing Number](https://leetcode.com/problems/missing-number/)|[Java](./solutions/268.%20Missing%20Number.java)|0 ms|
 |269|[ Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)|[Java](./solutions/269.%20Alien%20Dictionary.java)|3 ms|
 |273|[ Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|[Java](./solutions/273.%20Integer%20to%20English%20Words.java)|13 ms|
 |285|[ Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|[Java](./solutions/285.%20Inorder%20Successor%20in%20BST.java)|2 ms|
