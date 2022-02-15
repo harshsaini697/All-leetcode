@@ -1,0 +1,34 @@
+class Solution {
+    public boolean isBipartite(int[][] graph) {
+        if(graph == null || graph.length == 0) {
+            return false;
+        }
+        
+        int numberOfVertices = graph.length;
+        int[] colors = new int[numberOfVertices];
+        
+        //DFS on all nodes to assign colors and see if any adjacenet nodes get the same color, if yes, return false, which leads to true, and return false. 
+        for(int i = 0; i < numberOfVertices; i++) {
+            if(colors[i] == 0 && !dfs(graph, colors, 1, i))
+                return false;
+        }
+        
+        return true;
+    }
+    
+    private boolean dfs(int[][] graph, int[] colors, int color, int node) {
+        colors[node] = color;
+        
+        //Visit all adjacent nodes and do dfs
+        for(int j = 0; j < graph[node].length; j++) {
+            
+            int adjacentNode = graph[node][j];
+            
+            if(colors[adjacentNode] == -color) 
+                continue;
+            if(colors[adjacentNode] == color || !dfs(graph, colors, -color, adjacentNode)) 
+                return false; 
+        }
+        return true;
+    }
+}
