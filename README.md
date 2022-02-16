@@ -62,6 +62,7 @@
 |238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Java](./solutions/238.%20Product%20of%20Array%20Except%20Self.java)|1 ms|
 |239|[ Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Java](./solutions/239.%20Sliding%20Window%20Maximum.java)|28 ms|
 |240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](./solutions/240.%20Search%20a%202D%20Matrix%20II.java)|4 ms|
+|261|[ Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|[Java](./solutions/261.%20Graph%20Valid%20Tree.java)|4 ms|
 |264|[ Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Java](./solutions/264.%20Ugly%20Number%20II.java)|2 ms|
 |268|[ Missing Number](https://leetcode.com/problems/missing-number/)|[Java](./solutions/268.%20Missing%20Number.java)|0 ms|
 |269|[ Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)|[Java](./solutions/269.%20Alien%20Dictionary.java)|3 ms|
