@@ -162,7 +162,7 @@
 |1448|[ Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[Java](./solutions/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree.java)|4 ms|
 |1451|[ Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/)|[Java](./solutions/1451.%20Rearrange%20Words%20in%20a%20Sentence.java)|19 ms|
 |1465|[ Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[Java](./solutions/1465.%20Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts.java)|13 ms|
-|1481|[ Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|[Java](./solutions/1481.%20Least%20Number%20of%20Unique%20Integers%20after%20K%20Removals.java)|265 ms|
+|1481|[ Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)|[Java](./solutions/1481.%20Least%20Number%20of%20Unique%20Integers%20after%20K%20Removals.java)|98 ms|
 |1487|[ Making File Names Unique](https://leetcode.com/problems/making-file-names-unique/)|[Java](./solutions/1487.%20Making%20File%20Names%20Unique.java)|47 ms|
 |1492|[ The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)|[Java](./solutions/1492.%20The%20kth%20Factor%20of%20n.java)|1 ms|
 |1507|[ Reformat Date](https://leetcode.com/problems/reformat-date/)|[Java](./solutions/1507.%20Reformat%20Date.java)|16 ms|
