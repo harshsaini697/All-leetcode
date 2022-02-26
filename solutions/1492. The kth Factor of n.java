@@ -13,7 +13,7 @@ class Solution {
                 return factor;
             }
         }
-        return count == k ? factor : -1;
+        return -1;
     }
 }
 ​
