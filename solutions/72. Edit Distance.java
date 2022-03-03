@@ -1,37 +1,26 @@
 class Solution {
-    int[][] memo;
-    public int minDistance(String w1, String w2) {
-        if(w1 == null || w2 == null) {
-            return 0;
+    public int minDistance(String word1, String word2) {
+        int n = word2.length();
+        int m = word1.length();
+        int[][] dp = new int[n + 1][m + 1];
+        if(m == 0) return n;
+        if(n == 0) return m;
+        //Most important step to govern the rule of Bottom Up approach. 
+        for(int i = 0; i <= m; i++) {
+            dp[0][i] = i;
         }
-        memo = new int[w1.length() + 1][w2.length() + 1];
-        for(int i = 0; i < memo.length; i++) {
-            Arrays.fill(memo[i], -1);
+        for(int i = 0; i <= n; i++) {
+            dp[i][0] = i;
         }
-        return helper(w1, w2, 0, 0);
-        
-    }
-    
-    private int helper(String w1, String w2, int i, int j) {
-        // edge cases
-        if(w1.length() == i) {
-            return w2.length() - j;
-        }
-        if(w2.length() == j) {
-            return w1.length() - i;
-        }
-        if(memo[i][j] != -1) {
-            return memo[i][j];
-        }
-        int ans = 0;
-        if(w1.charAt(i) != w2.charAt(j)) {
-            int insert = helper(w1, w2, i, j + 1);
-            int delete = helper(w1, w2, i + 1, j);
-            int replace = helper(w1, w2, i + 1, j + 1);
-            ans = 1 + Math.min(insert, Math.min(delete, replace));
-        } else {
-            ans = helper(w1, w2, i + 1, j + 1);
-        }
-        return memo[i][j] = ans;
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= m; j++) {
+                if(word2.charAt(i - 1) ==  word1.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    dp[i][j] = 1 +  Math.min(dp[i - 1][j], Math.min(dp[i - 1][ j - 1], dp[i][j - 1]));
+                }
+            }
+        }
+        return dp[n][m];
     }
 }
