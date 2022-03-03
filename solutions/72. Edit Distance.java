@@ -1,7 +1,12 @@
 class Solution {
+    int[][] memo;
     public int minDistance(String w1, String w2) {
         if(w1 == null || w2 == null) {
             return 0;
+        }
+        memo = new int[w1.length() + 1][w2.length() + 1];
+        for(int i = 0; i < memo.length; i++) {
+            Arrays.fill(memo[i], -1);
         }
         return helper(w1, w2, 0, 0);
         
@@ -15,7 +20,9 @@ class Solution {
         if(w2.length() == j) {
             return w1.length() - i;
         }
-        
+        if(memo[i][j] != -1) {
+            return memo[i][j];
+        }
         int ans = 0;
         if(w1.charAt(i) != w2.charAt(j)) {
             int insert = helper(w1, w2, i, j + 1);
@@ -23,8 +30,8 @@ class Solution {
             int replace = helper(w1, w2, i + 1, j + 1);
             ans = 1 + Math.min(insert, Math.min(delete, replace));
         } else {
-            ans += helper(w1, w2, i + 1, j + 1);
+            ans = helper(w1, w2, i + 1, j + 1);
         }
-        return ans;
+        return memo[i][j] = ans;
     }
 }
