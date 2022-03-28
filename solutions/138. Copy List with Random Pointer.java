@@ -15,39 +15,40 @@ class Node {
 ​
 class Solution {
     public Node copyRandomList(Node head) {
-        // 1. Create New Nodes
-        // 2. Configure random pointers
-        // 3. Split the nodes
-        if(head == null) return null;
         
-        Node curr = head;
-        while(curr != null){
-            Node currCopy = new Node(curr.val);
-            Node temp = curr.next;
-            curr.next = currCopy;
-            currCopy.next = temp;
-            curr = curr.next.next; // move next twice
+        Node dummy = head;
+        
+        while(dummy != null) {
+            //insert a new node after current node
+            Node curr = dummy;
+            Node node = new Node(curr.val);
+            node.next = curr.next;
+            curr.next = node;
+            dummy = dummy.next.next;
         }
-        //Step 2 random pointers
-        curr = head;
-        while(curr != null){
-            if(curr.random != null){
+        
+        dummy = head;
+        
+        while(dummy != null) {
+            Node curr = dummy;
+            if(curr.random != null)
                 curr.next.random = curr.random.next;
-            }
-            curr = curr.next.next;
+            dummy = dummy.next.next;
         }
-        // Step 3 split
-        curr = head;
-        Node copyHead = curr.next;
-        Node currCopy = copyHead;
-        while(curr != null){
-            curr.next = curr.next.next;
-            if(currCopy.next != null){
-                currCopy.next = currCopy.next.next;
-            }
-            curr = curr.next;
-            currCopy = currCopy.next;    
+        
+        dummy = head;
+        
+        Node result = new Node(0);// 0 -> 7 > 7
+        //save the result pointer
+        Node res = result;
+        //rearrange pointers
+        while(dummy != null) {
+            result.next = dummy.next;
+            dummy.next = dummy.next.next;
+            dummy = dummy.next;
+            result = result.next;
         }
-        return copyHead;
+        
+        return res.next;
     }
 }
