@@ -1,27 +1,42 @@
 class MovingAverage {
-    int[] arr;
-    int last;
-    double average = 0;
+    Node head;
     int size;
-    /** Initialize your data structure here. */
+    int capacity;
     public MovingAverage(int size) {
-        arr = new int[size];
-        last = 0;
+        this.head = new Node(0, null);
         this.size = size;
+        this.capacity = 0;
     }
     
     public double next(int val) {
-        double sum = average * Math.min(size, last);
-        //System.out.println(sum);
-        double new_sum = sum - arr[last % size];
-        //System.out.println(new_sum);
-        arr[last++ % size] = val;
-        if(last < size){
-            average = (val + new_sum)/ last;
-        }else{
-            average = (val + new_sum) / size;
+        double result = 0;
+        Node node = new Node(val, this.head);
+        Node temp = node;
+        double tempSum = 0;
+        int i = 0;
+        if(capacity < size) {
+            this.capacity++;
+            i = capacity; 
+        } else {
+            i = size;
         }
-        return average;
+        while(i != 0) {
+            tempSum += temp.val;
+            temp = temp.next;
+            i--;
+        }
+        result = tempSum / (this.capacity > this.size ? this.size : this.capacity);
+        head = node;
+        return result;
+    }
+}
+​
+class Node {
+    double val;
+    Node next;
+    Node(double val, Node next) {
+        this.val = val;
+        this.next = next;
     }
 }
 ​
@@ -29,4 +44,3 @@ class MovingAverage {
  * Your MovingAverage object will be instantiated and called as such:
  * MovingAverage obj = new MovingAverage(size);
  * double param_1 = obj.next(val);
- */
