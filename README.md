@@ -20,6 +20,7 @@
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[Java](./solutions/46.%20Permutations.java)|1 ms|
 |50|[ Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](./solutions/50.%20Pow(x%2C%20n).java)|0 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./solutions/53.%20Maximum%20Subarray.java)|0 ms|
+|56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Java](./solutions/56.%20Merge%20Intervals.java)|11 ms|
 |63|[ Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Java](./solutions/63.%20Unique%20Paths%20II.java)|0 ms|
 |72|[ Edit Distance](https://leetcode.com/problems/edit-distance/)|[Java](./solutions/72.%20Edit%20Distance.java)|9 ms|
 |75|[ Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](./solutions/75.%20Sort%20Colors.java)|0 ms|
