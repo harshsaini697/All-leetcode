@@ -7,13 +7,13 @@ class Solution {
         list.add(intervals[0]);
         for(int i = 1; i < intervals.length; i++) {
             int[] interval = intervals[i];
-            if (list.isEmpty() || list.getLast()[1] < interval[0]){
+            if (list.isEmpty() || list.getLast()[1] < interval[0]) {
                 list.add(interval);
             } else {
                 list.getLast()[1] = Math.max(interval[1], list.getLast()[1]);
             }
         }
         
-        return list.toArray(new int[list.size()][]);
+        return list.toArray(new int[list.size()][2]);
     }
 }
