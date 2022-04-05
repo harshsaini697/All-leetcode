@@ -78,7 +78,7 @@
 |314|[ Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|[Java](./solutions/314.%20Binary%20Tree%20Vertical%20Order%20Traversal.java)|2 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Java](./solutions/322.%20Coin%20Change.java)|17 ms|
 |323|[ Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|[Java](./solutions/323.%20Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.java)|3 ms|
-|339|[ Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|[Java](./solutions/339.%20Nested%20List%20Weight%20Sum.java)|0 ms|
+|339|[ Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|[Java](./solutions/339.%20Nested%20List%20Weight%20Sum.java)|1 ms|
 |345|[ Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](./solutions/345.%20Reverse%20Vowels%20of%20a%20String.java)|17 ms|
 |346|[ Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Java](./solutions/346.%20Moving%20Average%20from%20Data%20Stream.java)|86 ms|
 |347|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Java](./solutions/347.%20Top%20K%20Frequent%20Elements.java)|9 ms|
