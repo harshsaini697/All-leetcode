@@ -1,3 +1,11 @@
+ *     // @return the single integer that this NestedInteger holds, if it holds a single integer
+ *     // Return null if this NestedInteger holds a nested list
+ *     public Integer getInteger();
+ *
+ *     // Set this NestedInteger to hold a single integer.
+ *     public void setInteger(int value);
+ *
+ *     // Set this NestedInteger to hold a nested list and adds a nested integer to it.
  *     public void add(NestedInteger ni);
  *
  *     // @return the nested list that this NestedInteger holds, if it holds a nested list
@@ -10,22 +18,15 @@ class Solution {
     int level = 1;
     public int depthSum(List<NestedInteger> nestedList) {
         if(nestedList == null || nestedList.size() == 0) return 0;
-        for(int i = 0; i < nestedList.size(); i++) {
-            NestedInteger n = nestedList.get(i);
-            if(n.getList().size() == 0) {
-                sum += (n.getInteger() == null ? 0: n.getInteger());
-            } else {
-                recurse(n.getList(), level + 1);
-            }
-        }
+        recurse(nestedList, level);
         return sum;
     }
     
     private void recurse(List<NestedInteger> nestedList, int level) {
         for(int i = 0; i < nestedList.size(); i++) {
             NestedInteger n = nestedList.get(i); 
-            if(n.getList().size() == 0) {
-                this.sum += level *(n.getInteger() == null ? 0: n.getInteger());
+            if(n.isInteger()) {
+                this.sum += level * n.getInteger();
             } else {
                 recurse(n.getList(), level + 1);
             }
