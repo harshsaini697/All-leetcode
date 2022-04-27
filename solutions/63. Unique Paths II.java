@@ -1,27 +1,35 @@
 class Solution {
-    public int uniquePathsWithObstacles(int[][] obstacleGrid) {
-        if(obstacleGrid == null || obstacleGrid.length == 0) return 0;
-        if (obstacleGrid[0][0] == 1) {
+    int max = 0;
+    Integer[][] dp;
+    public int uniquePathsWithObstacles(int[][] grid) {
+        //base 
+        if(grid == null || grid.length == 0) return 0;
+        dp = new Integer[grid.length][grid[0].length];
+        
+        return recurse(grid, 0, 0);
+    }
+    // bottom 0, right 1
+    private int recurse(int[][] grid, int i, int j ) {
+        // base check if obstacle, return 0;
+        if(i >= grid.length || j >= grid[0].length) {
             return 0;
         }
-        int m = obstacleGrid.length;
-        int n = obstacleGrid[0].length;
-        obstacleGrid[0][0] = 1;
-        for (int i = 1; i < m; i++) {
-            obstacleGrid[i][0] = (obstacleGrid[i][0] == 0 && obstacleGrid[i - 1][0] == 1) ? 1 : 0;
+        
+        if(grid[i][j] == 1) {
+            return 0;
         }
-        for (int i = 1; i < n; i++) {
-            obstacleGrid[0][i] = (obstacleGrid[0][i] == 0 && obstacleGrid[0][i-1] == 1) ? 1 : 0;
+        
+        if(i == grid.length - 1 && j == grid[0].length - 1) {
+            return 1;
         }
-        for(int i = 1; i < m; i++){
-            for(int j = 1; j < n; j++){
-                if(obstacleGrid[i][j] == 0){
-                    obstacleGrid[i][j] = obstacleGrid[i - 1][j] + obstacleGrid[i][j - 1];
-                }else{
-                    obstacleGrid[i][j] = 0;
-                }
-            }
+        
+        if(dp[i][j] != null) {
+            return dp[i][j];
         }
-        return obstacleGrid[m - 1][n - 1];
+        //recurse 
+        
+        int case1 =  recurse(grid, i + 1, j);
+        int case2 = recurse(grid, i, j + 1);
+        return dp[i][j] = Math.max(case1 + case2, max);
     }
 }
