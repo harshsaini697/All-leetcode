@@ -189,3 +189,4 @@
 |1603|[ Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Java](./solutions/1603.%20Design%20Parking%20System.java)|6 ms|
 |1762|[ Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|[Java](./solutions/1762.%20Buildings%20With%20an%20Ocean%20View.java)|122 ms|
 |1822|[ Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Java](./solutions/1822.%20Sign%20of%20the%20Product%20of%20an%20Array.java)|0 ms|
+|2235|[ Add Two Integers](https://leetcode.com/problems/add-two-integers/)|[Java](./solutions/2235.%20Add%20Two%20Integers.java)|0 ms|
