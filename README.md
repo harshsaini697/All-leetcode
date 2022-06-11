@@ -170,6 +170,7 @@
 |1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Java](./solutions/1143.%20Longest%20Common%20Subsequence.java)|N/A|
 |1152|[ Analyze User Website Visit Pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern/)|[Java](./solutions/1152.%20Analyze%20User%20Website%20Visit%20Pattern.java)|30 ms|
 |1156|[ Swap For Longest Repeated Character Substring](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)|[Java](./solutions/1156.%20Swap%20For%20Longest%20Repeated%20Character%20Substring.java)|9 ms|
+|1166|[ Design File System](https://leetcode.com/problems/design-file-system/)|[Java](./solutions/1166.%20Design%20File%20System.java)|122 ms|
 |1192|[ Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[Java](./solutions/1192.%20Critical%20Connections%20in%20a%20Network.java)|132 ms|
 |1197|[ Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Java](./solutions/1197.%20Minimum%20Knight%20Moves.java)|2070 ms|
 |1235|[ Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)|[Java](./solutions/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.java)|64 ms|
