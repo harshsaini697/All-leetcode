@@ -5,7 +5,7 @@ class Solution {
             Set<Character> set = new HashSet<>();
             for(char c: s.toCharArray()) {
                 set.add(c);
-            }
+            }
             return set.size() < s.length();
         }
         List<Integer> list = new ArrayList();
