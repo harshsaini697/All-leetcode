@@ -142,6 +142,7 @@
 |785|[ Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Java](./solutions/785.%20Is%20Graph%20Bipartite%3F.java)|0 ms|
 |807|[ Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Java](./solutions/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.java)|1 ms|
 |819|[ Most Common Word](https://leetcode.com/problems/most-common-word/)|[Java](./solutions/819.%20Most%20Common%20Word.java)|11 ms|
+|826|[ Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/)|[Java](./solutions/826.%20Most%20Profit%20Assigning%20Work.java)|25 ms|
 |836|[ Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)|[Java](./solutions/836.%20Rectangle%20Overlap.java)|0 ms|
 |859|[ Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[Java](./solutions/859.%20Buddy%20Strings.java)|3 ms|
 |863|[ All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[Java](./solutions/863.%20All%20Nodes%20Distance%20K%20in%20Binary%20Tree.java)|13 ms|
