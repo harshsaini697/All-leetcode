@@ -82,7 +82,7 @@
 |269|[ Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)|[Java](./solutions/269.%20Alien%20Dictionary.java)|3 ms|
 |273|[ Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|[Java](./solutions/273.%20Integer%20to%20English%20Words.java)|13 ms|
 |285|[ Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|[Java](./solutions/285.%20Inorder%20Successor%20in%20BST.java)|2 ms|
-|289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[Java](./solutions/289.%20Game%20of%20Life.java)|0 ms|
+|289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[Java](./solutions/289.%20Game%20of%20Life.java)|1 ms|
 |295|[ Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Java](./solutions/295.%20Find%20Median%20from%20Data%20Stream.java)|326 ms|
 |297|[ Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Java](./solutions/297.%20Serialize%20and%20Deserialize%20Binary%20Tree.java)|11 ms|
 |311|[ Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|[Java](./solutions/311.%20Sparse%20Matrix%20Multiplication.java)|0 ms|
