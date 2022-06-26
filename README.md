@@ -176,6 +176,7 @@
 |1055|[ Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Java](./solutions/1055.%20Shortest%20Way%20to%20Form%20String.java)|4 ms|
 |1057|[ Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Java](./solutions/1057.%20Campus%20Bikes.java)|809 ms|
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Java](./solutions/1087.%20Brace%20Expansion.java)|2 ms|
+|1091|[ Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Java](./solutions/1091.%20Shortest%20Path%20in%20Binary%20Matrix.java)|17 ms|
 |1100|[ Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/)|[Java](./solutions/1100.%20Find%20K-Length%20Substrings%20With%20No%20Repeated%20Characters.java)|7 ms|
 |1120|[ Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|[Java](./solutions/1120.%20Maximum%20Average%20Subtree.java)|1 ms|
 |1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Java](./solutions/1143.%20Longest%20Common%20Subsequence.java)|N/A|
