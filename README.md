@@ -63,6 +63,7 @@
 |199|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Java](./solutions/199.%20Binary%20Tree%20Right%20Side%20View.java)|1 ms|
 |202|[ Happy Number](https://leetcode.com/problems/happy-number/)|[Java](./solutions/202.%20Happy%20Number.java)|1 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](./solutions/206.%20Reverse%20Linked%20List.java)|0 ms|
+|208|[ Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Java](./solutions/208.%20Implement%20Trie%20(Prefix%20Tree).java)|45 ms|
 |210|[ Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[Java](./solutions/210.%20Course%20Schedule%20II.java)|5 ms|
 |212|[ Word Search II](https://leetcode.com/problems/word-search-ii/)|[Java](./solutions/212.%20Word%20Search%20II.java)|156 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.java)|3 ms|
