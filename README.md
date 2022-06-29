@@ -100,6 +100,7 @@
 |350|[ Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Java](./solutions/350.%20Intersection%20of%20Two%20Arrays%20II.java)|3 ms|
 |353|[ Design Snake Game](https://leetcode.com/problems/design-snake-game/)|[Java](./solutions/353.%20Design%20Snake%20Game.java)|42 ms|
 |364|[ Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)|[Java](./solutions/364.%20Nested%20List%20Weight%20Sum%20II.java)|3 ms|
+|366|[ Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|[Java](./solutions/366.%20Find%20Leaves%20of%20Binary%20Tree.java)|0 ms|
 |380|[ Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Java](./solutions/380.%20Insert%20Delete%20GetRandom%20O(1).java)|8 ms|
 |381|[ Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[Java](./solutions/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.java)|11 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Java](./solutions/392.%20Is%20Subsequence.java)|1 ms|
