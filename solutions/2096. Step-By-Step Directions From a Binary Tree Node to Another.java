@@ -14,66 +14,32 @@
  * }
  */
 class Solution {
-    private String leftChild = "L";
-    private String rightChild = "R";
-    private String parentNode = "U";
-    TreeNode startNode = null;
-    TreeNode endNode = null;
-    HashMap<Integer, TreeNode> parentMap = new HashMap<>();
-    //HashMap<TreeNode, TreeNode> parentMap = new HashMap<>();
     public String getDirections(TreeNode root, int startValue, int destValue) {
-        if(root == null) {
-            return "";
-        }
-        parentMap.put(root.val, null);
+        if(root == null || startValue == destValue) return "";
         
-        Stack<Pair<TreeNode, TreeNode>> st = new Stack<>();
-        TreeNode node = root;
-        TreeNode par = null;
-        parentMap.put(root.val, null);
-        while(node != null || !st.isEmpty()) {
-            while(node != null) {
-                st.push(new Pair(node, par));
-                par = node;
-                node = node.left;
-            }
-            Pair temp = st.pop();
-            node = (TreeNode)temp.getKey();
-            par = (TreeNode)temp.getValue();
-            parentMap.put(node.val, par);
-            if (node.val == startValue) {
-                //System.out.println(node.val);
-                startNode = node;
-            } else if (node.val == destValue) {
-                //System.out.println(node.val);
-                endNode = node;
-            }
-            par = node;
-            node = node.right;
-        }
-​
-        if(startNode == null || endNode == null) return "NP";
-        Queue<Pair<TreeNode, String>> q = new LinkedList();
-        q.add(new Pair(startNode, ""));
-        Set<Integer> visited = new HashSet<>();
-        StringBuilder path = new StringBuilder();
-        while(!q.isEmpty()) {
-            Pair temp = q.poll();
-            TreeNode curr = (TreeNode)temp.getKey();
-            String currString = (String)temp.getValue();
-            visited.add(curr.val);
-            if(curr.val == destValue) return currString;
-            TreeNode parent = parentMap.get(curr.val);
-            if(parent != null && !visited.contains(parent.val)) {
-                q.add(new Pair(parent, currString + "U"));
-            }
-            if(curr.left != null && !visited.contains(curr.left.val)) {
-                q.add(new Pair(curr.left, currString + "L"));
-            }
-            if(curr.right != null && !visited.contains(curr.right.val)) {
-                q.add(new Pair(curr.right, currString + "R"));
-            }
-        }
-        return "";
+        TreeNode currLCA = getLowestCommonAncestor(root, startValue, destValue);
+        StringBuilder lcaToStart = new StringBuilder();
+        StringBuilder lcaToEnd = new StringBuilder();
+        
+        traverse(currLCA, startValue, lcaToStart);
+        traverse(currLCA, destValue, lcaToEnd);
+        
+        String s = "U";
+        s = s.repeat(lcaToStart.length());
+        return s + lcaToEnd.toString();
     }
-}
+    
+    private boolean traverse(TreeNode start, int dest, StringBuilder sb) {
+        if(start == null) return false;
+        
+        if(start.val == dest) 
+            return true;
+        
+        sb.append('L');
+        
+        if(traverse(start.left, dest, sb)) 
+            return true;
+        
+        sb.setCharAt(sb.length() - 1, 'R');
+        
+        if(traverse(start.right, dest, sb)) 
