@@ -209,5 +209,6 @@
 |1631|[ Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[Java](./solutions/1631.%20Path%20With%20Minimum%20Effort.java)|96 ms|
 |1762|[ Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|[Java](./solutions/1762.%20Buildings%20With%20an%20Ocean%20View.java)|122 ms|
 |1822|[ Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Java](./solutions/1822.%20Sign%20of%20the%20Product%20of%20an%20Array.java)|0 ms|
+|2096|[ Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)|[Java](./solutions/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another.java)||
 |2235|[ Add Two Integers](https://leetcode.com/problems/add-two-integers/)|[Java](./solutions/2235.%20Add%20Two%20Integers.java)|0 ms|
 |2300|[ Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[Java](./solutions/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions.java)|75 ms|
