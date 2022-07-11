@@ -52,6 +52,7 @@
 |146|[ LRU Cache](https://leetcode.com/problems/lru-cache/)|[Java](./solutions/146.%20LRU%20Cache.java)|13 ms|
 |150|[ Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Java](./solutions/150.%20Evaluate%20Reverse%20Polish%20Notation.java)|13 ms|
 |152|[ Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Java](./solutions/152.%20Maximum%20Product%20Subarray.java)|1 ms|
+|153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.java)|0 ms|
 |155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[Java](./solutions/155.%20Min%20Stack.java)|6 ms|
 |159|[ Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Java](./solutions/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters.java)|4 ms|
 |165|[ Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Java](./solutions/165.%20Compare%20Version%20Numbers.java)|1 ms|
