@@ -153,6 +153,7 @@
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[Java](./solutions/705.%20Design%20HashSet.java)|109 ms|
 |706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Java](./solutions/706.%20Design%20HashMap.java)|14 ms|
 |715|[ Range Module](https://leetcode.com/problems/range-module/)|[Java](./solutions/715.%20Range%20Module.java)|56 ms|
+|716|[ Max Stack](https://leetcode.com/problems/max-stack/)|[Java](./solutions/716.%20Max%20Stack.java)|25 ms|
 |720|[ Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)|[Java](./solutions/720.%20Longest%20Word%20in%20Dictionary.java)|6 ms|
 |721|[ Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Java](./solutions/721.%20Accounts%20Merge.java)|69 ms|
 |727|[ Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)|[Java](./solutions/727.%20Minimum%20Window%20Subsequence.java)|15 ms|
