@@ -126,7 +126,7 @@
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](./solutions/543.%20Diameter%20of%20Binary%20Tree.java)|0 ms|
 |545|[ Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)|[Java](./solutions/545.%20Boundary%20of%20Binary%20Tree.java)|1 ms|
 |547|[ Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Java](./solutions/547.%20Number%20of%20Provinces.java)|0 ms|
-|560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](./solutions/560.%20Subarray%20Sum%20Equals%20K.java)|18 ms|
+|560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](./solutions/560.%20Subarray%20Sum%20Equals%20K.java)|51 ms|
 |572|[ Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Java](./solutions/572.%20Subtree%20of%20Another%20Tree.java)|5 ms|
 |588|[ Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)|[Java](./solutions/588.%20Design%20In-Memory%20File%20System.java)|35 ms|
 |589|[ N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Java](./solutions/589.%20N-ary%20Tree%20Preorder%20Traversal.java)|0 ms|
