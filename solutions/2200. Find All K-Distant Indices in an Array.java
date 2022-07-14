@@ -1,15 +1,17 @@
 class Solution {
     public List<Integer> findKDistantIndices(int[] nums, int key, int k) {
-        Set<Integer> res = new LinkedHashSet();
-        if(nums == null || nums.length == 0) return new ArrayList<>(res);
+        List<Integer> res = new ArrayList();
+        if(nums == null || nums.length == 0) return res;
         
-        for(int i = 0; i < nums.length; i++) {
-            for(int j = 0; j < nums.length; j++) {
-                if(Math.abs(i - j) <= k && nums[j] == key) {
-                    res.add(i);
-                }
+        for (int i = 0, j = 0; i < nums.length; ++i) {
+            if (nums[i] == key) {
+                for(j = Math.max(j, i - k); j <= i + k && j < nums.length; j++) {
+                    res.add(j);
+                }   
             }
+            
         }
-        return new ArrayList<>(res);
+        return res;
     }
 }
+​
