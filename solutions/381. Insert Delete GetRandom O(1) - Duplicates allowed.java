@@ -1,38 +1,39 @@
 class RandomizedCollection {
-    Random rand;
-    ArrayList<Integer> list;
     Map<Integer, Set<Integer>> map;
-    /** Initialize your data structure here. */
+    List<Integer> list;
+    Random rand;
     public RandomizedCollection() {
         map = new HashMap<>();
-        list = new ArrayList<>();
+        list = new ArrayList();
         rand = new Random();
     }
     
-    /** Inserts a value to the collection. Returns true if the collection did not already contain the specified element. */
     public boolean insert(int val) {
-        if(!map.containsKey(val))   map.put(val, new LinkedHashSet<>());
-        map.get(val).add(list.size());
-        list.add(val);
-        return map.get(val).size() == 1;
+        boolean flag = false;
+        if(!map.containsKey(val)) {
+            map.put(val, new HashSet());
+            flag = true;
+        }
+        int index = list.size();
+        list.add(index, val);
+        map.get(val).add(index);
+        return flag;
     }
     
-    /** Removes a value from the collection. Returns true if the collection contained the specified element. */
     public boolean remove(int val) {
-        if(!map.containsKey(val) || map.get(val).size() == 0) return false;
-        
+        if(!map.containsKey(val)) return false;
         int index = map.get(val).iterator().next();
         map.get(val).remove(index);
-        int last = list.get(list.size() - 1);
-        list.set(index, last);
-        map.get(last).add(index);
-        map.get(last).remove(list.size() - 1);
-        
+        int newVal = list.get(list.size() - 1);
+        list.set(index, newVal);
+        map.get(newVal).add(index);
+        map.get(newVal).remove(list.size() - 1);
         list.remove(list.size() - 1);
+        if(map.get(val).size() == 0) map.remove(val);
         return true;
+        
     }
     
-    /** Get a random element from the collection. */
     public int getRandom() {
         return list.get(rand.nextInt(list.size()));
     }
