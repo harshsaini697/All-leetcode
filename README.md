@@ -48,7 +48,7 @@
 |128|[ Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](./solutions/128.%20Longest%20Consecutive%20Sequence.java)|34 ms|
 |133|[ Clone Graph](https://leetcode.com/problems/clone-graph/)|[Java](./solutions/133.%20Clone%20Graph.java)|25 ms|
 |138|[ Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Java](./solutions/138.%20Copy%20List%20with%20Random%20Pointer.java)|0 ms|
-|139|[ Word Break](https://leetcode.com/problems/word-break/)|[Java](./solutions/139.%20Word%20Break.java)|6 ms|
+|139|[ Word Break](https://leetcode.com/problems/word-break/)|[Java](./solutions/139.%20Word%20Break.java)|13 ms|
 |140|[ Word Break II](https://leetcode.com/problems/word-break-ii/)|[Java](./solutions/140.%20Word%20Break%20II.java)|1 ms|
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Java](./solutions/142.%20Linked%20List%20Cycle%20II.java)|0 ms|
 |144|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Java](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.java)|0 ms|
