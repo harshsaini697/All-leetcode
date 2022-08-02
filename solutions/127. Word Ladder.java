@@ -1,27 +1,31 @@
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        if(wordList == null || wordList.size() == 0) return 0;
-        Set<String> set = new HashSet<String>(wordList);
-        if(!set.contains(endWord)) return 0;
+        if(wordList == null || wordList.isEmpty()) return 0;
+        
+        HashSet<String> words = new HashSet(wordList);
+        if(!words.contains(endWord)) return 0;
+        
         Queue<String> q = new LinkedList<>();
+        
         int count = 1;
         q.offer(beginWord);
         
-        while(!q.isEmpty()){
+        while(!q.isEmpty()) {
             int size = q.size();
             
-            for(int i = 0; i < size; i++){
-                String current = q.poll();
-                char[] temp = current.toCharArray();
-                for(int j = 0; j < temp.length; j++){
+            for(int i = 0; i < size; i++) {
+                char[] temp = q.poll().toCharArray();
+                for(int j = 0; j < temp.length; j++) {
                     char hold = temp[j];
-                    for(char c = 'a'; c <= 'z'; c++ ){
+                    for(char c = 'a'; c <= 'z'; c++) {
                         temp[j] = c;
-                        String next = new String(temp);
-                        if(set.contains(next)){
-                            if(endWord.equals(next)) return count + 1;
-                            set.remove(next);
-                            q.offer(next);
+                        String curr = String.valueOf(temp); 
+                        if(words.contains(curr)) {
+                            if(endWord.equals(curr)) {
+                                return count + 1;
+                            }
+                            words.remove(curr);
+                            q.offer(curr);
                         }
                     }
                     temp[j] = hold;
