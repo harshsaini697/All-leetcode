@@ -1,43 +1,27 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
-    List<List<Integer>> result;
+    private List<List<Integer>> result;
+    
+    private int getHeight(TreeNode root) {
+        // return -1 for null nodes
+        if (root == null) {
+            return -1;
+        }
+        // first calculate the height of the left and right children
+        int leftHeight = getHeight(root.left); // 1
+        int rightHeight = getHeight(root.right); // 0
+        
+        int currHeight = Math.max(leftHeight, rightHeight) + 1; // 2
+        
+        if (this.result.size() == currHeight) { 
+            this.result.add(new ArrayList<>());// [[4,5,3],[2],[]]
+        }
+        this.result.get(currHeight).add(root.val); //[[4,5,3], [2], [1]]
+        return currHeight;
+    }
+    
     public List<List<Integer>> findLeaves(TreeNode root) {
-        result = new ArrayList();
-        if(root == null) return result;
-        
-        while(root != null) {
-            List<Integer> children = new ArrayList<>();
-            root = dfsRemoveLeafs(root, children);
-            result.add(children);
-        }
-        return result;
+        this.result = new ArrayList<>();
+        getHeight(root);
+        return this.result;
     }
-    
-    private TreeNode dfsRemoveLeafs(TreeNode node, List<Integer> children) {
-        if(node == null) return null;
-        if(node.left == null && node.right == null) {
-            children.add(node.val);
-            return null;
-        }
-        
-        node.left = dfsRemoveLeafs(node.left, children);
-        node.right = dfsRemoveLeafs(node.right, children);
-        return node;
-    }
-    
-    
 }
