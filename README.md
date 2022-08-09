@@ -151,7 +151,7 @@
 |701|[ Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Java](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.java)|0 ms|
 |702|[ Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Java](./solutions/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size.java)|1 ms|
 |703|[ Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](./solutions/703.%20Kth%20Largest%20Element%20in%20a%20Stream.java)|18 ms|
-|705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[Java](./solutions/705.%20Design%20HashSet.java)|109 ms|
+|705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[Java](./solutions/705.%20Design%20HashSet.java)|18 ms|
 |706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Java](./solutions/706.%20Design%20HashMap.java)|14 ms|
 |715|[ Range Module](https://leetcode.com/problems/range-module/)|[Java](./solutions/715.%20Range%20Module.java)|56 ms|
 |716|[ Max Stack](https://leetcode.com/problems/max-stack/)|[Java](./solutions/716.%20Max%20Stack.java)|25 ms|
