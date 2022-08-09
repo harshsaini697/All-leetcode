@@ -1,31 +1,41 @@
 class MyHashSet {
-    int[][] nodes;
-    /** Initialize your data structure here. */
+    boolean[][] hashSet;
+    int buckets = 1001;
     public MyHashSet() {
-        nodes = new int[1001][1001];
-        for(int i = 0; i < nodes.length; i++){
-            Arrays.fill(nodes[i], -1);
-        }
+        hashSet = new boolean[buckets][];
+    }
+    private int hash1(int key) {
+        return key % (buckets);
+    }
+    
+    private int hash2(int key) {
+        return key / buckets;
     }
     
     public void add(int key) {
-        int col = key % 1000;
-        int row = key / 1000;
-        nodes[row][col] = key;
+        int index1 = hash1(key);
+        int index2 = hash2(key);
+        if(hashSet[index1] == null) {
+            hashSet[index1] = new boolean[buckets + 1];
+        }
+        hashSet[index1][index2] = true;
     }
     
     public void remove(int key) {
-        int col = key % 1000;
-        int row = key / 1000;
-        nodes[row][col] = -1;
+        int index1 = hash1(key);
+        int index2 = hash2(key);
+        if(hashSet[index1] != null) { 
+            hashSet[index1][index2] = false;
+        }
     }
     
-    /** Returns true if this set contains the specified element */
     public boolean contains(int key) {
-        int col = key % 1000;
-        int row = key / 1000;
-        return nodes[row][col] != -1;
+        int index1 = hash1(key);
+        int index2 = hash2(key);
+        return hashSet[index1] == null || hashSet[index1][index2] == false ? false : true;
     }
+    
+    
 }
 ​
 /**
