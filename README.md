@@ -222,6 +222,7 @@
 |1603|[ Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Java](./solutions/1603.%20Design%20Parking%20System.java)|6 ms|
 |1631|[ Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[Java](./solutions/1631.%20Path%20With%20Minimum%20Effort.java)|96 ms|
 |1762|[ Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|[Java](./solutions/1762.%20Buildings%20With%20an%20Ocean%20View.java)|122 ms|
+|1768|[ Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Java](./solutions/1768.%20Merge%20Strings%20Alternately.java)|0 ms|
 |1822|[ Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Java](./solutions/1822.%20Sign%20of%20the%20Product%20of%20an%20Array.java)|0 ms|
 |2096|[ Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)|[Java](./solutions/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another.java)|26 ms|
 |2128|[ Remove All Ones With Row and Column Flips](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips/)|[Java](./solutions/2128.%20Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips.java)||
